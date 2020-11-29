@@ -93,7 +93,7 @@ def get_google_search_result():
 def google_map_get():
     global count
     print("Current Page: " + str(count))
-    sub_domain = ['.com', '.net', '.org']
+    sub_domain = ['.com', '.net', '.org','.it']
     while True:
         url = ''
         # 上面修改成 Google Map的搜索结果网址就ojbk了
