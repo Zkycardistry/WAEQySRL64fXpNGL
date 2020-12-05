@@ -85,7 +85,7 @@ apt-get install tor
 service tor status
 
 2. 下载项目并安装依赖
-yum install git && git clone https://github.com/geuomao/WAEQySRL64fXpNGL && cd WAEQySRL64fXpNGL
+yum install git && git clone https://github.com/zkysimon/msdomain && cd WAEQySRL64fXpNGL
 yum install python-pip && pip install stem pySocket requests beautifulsoup4
 
 3. 报错处理 1
