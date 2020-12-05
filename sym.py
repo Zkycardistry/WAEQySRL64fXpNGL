@@ -66,7 +66,7 @@ def get_domain_can_register(domain):
 
 def get_google_search_result():
     global count, pages
-    sub_domain = ['.com', '.net', '.org']
+    sub_domain = ['.com', '.net', '.org','.it']
     header = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0"
     }
