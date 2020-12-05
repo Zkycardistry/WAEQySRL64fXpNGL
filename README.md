@@ -78,24 +78,24 @@ python sym.py
 
 坐等就好了
 
-A1 域名会保存在目录下的 domain_A1.txt 里  
-A1P 域名会保存在目录下的 domain_A1P.txt 里
-1. 安装 tor
-apt-get install tor
-service tor status
+A1 域名会保存在目录下的 domain_A1.txt 里   
+A1P 域名会保存在目录下的 domain_A1P.txt 里  
+1. 安装 tor  
+apt-get install tor  
+service tor status  
 
-2. 下载项目并安装依赖
-yum install git && git clone https://github.com/zkysimon/msdomain && cd WAEQySRL64fXpNGL
-yum install python-pip && pip install stem pySocket requests beautifulsoup4
+2. 下载项目并安装依赖  
+yum install git && git clone https://github.com/zkysimon/msdomain && cd msdomain    
+yum install python-pip && pip install stem pySocket requests beautifulsoup4    
 
-3. 报错处理 1
-stem.SocketError: [Errno 111] Connection refused
-vim /etc/tor/torrc
-ControlPort 9151
-SocksPort 9150
-service tor restart
+3. 报错处理 1  
+stem.SocketError: [Errno 111] Connection refused  
+vim /etc/tor/torrc  
+ControlPort 9151  
+SocksPort 9150  
+service tor restart  
 
-4. 报错处理 2
-ImportError: No module named socks
-pip install PySocks && sudo apt-get install python-socks
-没什么想说的了, 想到了再补充
+4. 报错处理 2  
+ImportError: No module named socks  
+pip install PySocks && sudo apt-get install python-socks  
+没什么想说的了, 想到了再补充  
